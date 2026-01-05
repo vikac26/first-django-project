@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/blogInfo.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="about-hero">
+    <div class="about-text">
+        <h1>Блог о путешествиях</h1>
+        <p class="subtitle">
+            О маршрутах, городах и дорогах без спешки
+        </p>
+    </div>
+</section>
+
+<section class="about-body">
+    <div class="about-wide">
+        <p>
+            Этот блог создан для тех, кто путешествует не ради галочек,
+            а ради впечатлений. Здесь нет спешки, только маршруты,
+            города и моменты, которые остаются в памяти.
+        </p>
+
+        <p>
+            Я делюсь реальными поездками, наблюдениями,
+            советами по планированию и атмосферой мест,
+            куда хочется возвращаться.
+        </p>
+
+        <p>
+            Путешествие — это не пункт назначения,
+            а путь между ними.
+        </p>
+
+        <blockquote>
+            «Самые лучшие дороги — те, что ведут к новым ощущениям»
+        </blockquote>
+    </div>
+</section>
+{% endblock %}

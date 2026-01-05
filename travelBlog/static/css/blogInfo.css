@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+
+.about-hero {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-text h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-text .subtitle {
+    font-size: 20px;
+    opacity: 0.85;
+}
+
+.about-body {
+    padding: 0px 20px 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-wide {
+    max-width: 900px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.about-wide p {
+    margin-bottom: 25px;
+}
+
+.about-wide blockquote {
+    margin-top: 40px;
+    font-size: 24px;
+    font-style: italic;
+    border-left: 4px solid #fff;
+    padding-left: 20px;
+    opacity: 0.9;
+}

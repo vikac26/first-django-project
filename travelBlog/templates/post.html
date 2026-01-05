@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/post.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="post-wrapper">
+    <article class="post-full">
+        <h1>{{ post.title }}</h1>
+
+        <img src="{% static post.image %}" alt="post image">
+
+        <div class="post-text">
+            {{ post.content|linebreaks }}
+        </div>
+    </article>
+</section>
+{% endblock %}
