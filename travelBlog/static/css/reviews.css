@@ -1,0 +1,92 @@
+.page {
+    background: linear-gradient(
+        180deg,
+        #0f2027 0%,
+        #203a43 50%,
+        #2c5364 100%
+    );
+    min-height: 100vh;
+}
+
+.reviews-hero {
+    max-width: 1000px;
+    margin: 0px auto 70px;
+    text-align: center;
+    color: #ffffff;
+    padding: 120px 20px 0 20px;
+}
+
+.reviews-hero h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.reviews-hero p {
+    font-size: 19px;
+    line-height: 1.7;
+    opacity: 0.9;
+}
+
+.reviews-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+
+    display: grid;
+    gap: 28px;
+}
+
+.review-card {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(14px);
+    border-radius: 26px;
+    padding: 28px 32px;
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+
+    color: #ffffff;
+    transition: transform 0.35s ease,
+                box-shadow 0.35s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);
+}
+
+.review-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.review-author {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review-email {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.review-text {
+    font-size: 17px;
+    line-height: 1.75;
+    opacity: 0.95;
+}
+
+.no-reviews {
+    text-align: center;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.review-form {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}

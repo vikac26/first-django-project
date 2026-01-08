@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-MENU = {"Главная": "/", "О Блоге": "/bloginfo"}
+MENU = {"Главная": "/", "О Блоге": "/bloginfo", "Отзывы" : "/reviews"}
 
 POSTS = [
     {
